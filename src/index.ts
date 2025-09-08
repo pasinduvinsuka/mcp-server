@@ -43,7 +43,7 @@ interface AlertFeature {
   };
 }
 
-// Format alert data
+// Format alert data 
 function formatAlert(feature: AlertFeature): string {
   const props = feature.properties;
   return [
